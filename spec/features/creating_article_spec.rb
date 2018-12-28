@@ -8,7 +8,7 @@ RSpec.feature "Creating Article" do
     click_link "New Article"
     
     fill_in 'Title', with: "this is a new Title from test"
-    fill_in 'Body', with: "Lorem Ipsum"
+    fill_in 'Body', with: "Lorem Ipsumj"
     
     click_button "Create"
     
